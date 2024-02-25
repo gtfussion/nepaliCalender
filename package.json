@@ -1,0 +1,12 @@
+{
+    "name": "calendar",
+    "version": "1.0.0",
+    "author": "Prashant",
+    "license": "MIT",
+    "scripts": {
+        "compile": "rm -rf dist/lib && tsc && tsc --build tsconfig.es5.json"
+    },
+    "devDependencies": {
+        "typescript": "^5.3.3"
+    }
+}
